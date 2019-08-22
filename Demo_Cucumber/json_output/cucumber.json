@@ -1,0 +1,434 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 22,
+        "name": "User can add mutiple address in amazon site",
+        "description": "",
+        "id": "to-check--add-address-functionality;user-can-add-mutiple-address-in-amazon-site;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9789159000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": user is on Login  page",
+            "match": {
+              "location": "AddressStepDefinition.user_is_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28639400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": Title of Login page is amazon",
+            "match": {
+              "location": "AddressStepDefinition.title_of_Login_page_is_amazon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3483613500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": User enter \"8087679770\" and \"deepika98\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8087679770",
+                  "offset": 14
+                },
+                {
+                  "val": "deepika98",
+                  "offset": 31
+                }
+              ],
+              "location": "AddressStepDefinition.user_enter_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4022345900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": user click on login button",
+            "match": {
+              "location": "AddressStepDefinition.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 55510100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": ": user lands on home page",
+            "match": {
+              "location": "AddressStepDefinition.user_lands_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2343755900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": ": user navigate to my account page",
+            "match": {
+              "location": "AddressStepDefinition.user_navigate_to_my_account_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2159000100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": ": user navigate to my address page and click on add address",
+            "match": {
+              "location": "AddressStepDefinition.user_navigate_to_my_address_page_and_click_on_add_address()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1201357600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": ": User select country and enter \"anurag N\" and \"8087184935\" and \"411057\" and \"blue ridge\"and \"Hinjawadi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "anurag N",
+                  "offset": 33
+                },
+                {
+                  "val": "8087184935",
+                  "offset": 48
+                },
+                {
+                  "val": "411057",
+                  "offset": 65
+                },
+                {
+                  "val": "blue ridge",
+                  "offset": 78
+                },
+                {
+                  "val": "Hinjawadi",
+                  "offset": 94
+                }
+              ],
+              "location": "AddressStepDefinition.user_select_country_and_enter_allvalues(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5450350200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": ": User enter \"near marina mart\" and \"pune\" and select state",
+            "match": {
+              "arguments": [
+                {
+                  "val": "near marina mart",
+                  "offset": 14
+                },
+                {
+                  "val": "pune",
+                  "offset": 37
+                }
+              ],
+              "location": "AddressStepDefinition.user_enter_and_and_select_state(String,String)"
+            },
+            "matchedColumns": [
+              7,
+              8
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1763162300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": ": User select Address type and click on add address",
+            "match": {
+              "location": "AddressStepDefinition.user_select_Address_type_and_click_on_add_address()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40173200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": ": User validate the address is saved",
+            "match": {
+              "location": "AddressStepDefinition.user_validate_the_address_is_saved()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 725243700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": ": user close the browser",
+            "match": {
+              "location": "AddressStepDefinition.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "User can add mutiple address in amazon site",
+        "description": "",
+        "id": "to-check--add-address-functionality;user-can-add-mutiple-address-in-amazon-site;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10236824700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": user is on Login  page",
+            "match": {
+              "location": "AddressStepDefinition.user_is_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42583400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": Title of Login page is amazon",
+            "match": {
+              "location": "AddressStepDefinition.title_of_Login_page_is_amazon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2628047700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": User enter \"8087679770\" and \"deepika98\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8087679770",
+                  "offset": 14
+                },
+                {
+                  "val": "deepika98",
+                  "offset": 31
+                }
+              ],
+              "location": "AddressStepDefinition.user_enter_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4391583200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": user click on login button",
+            "match": {
+              "location": "AddressStepDefinition.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 99116500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": ": user lands on home page",
+            "match": {
+              "location": "AddressStepDefinition.user_lands_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2225889300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": ": user navigate to my account page",
+            "match": {
+              "location": "AddressStepDefinition.user_navigate_to_my_account_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1782661900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": ": user navigate to my address page and click on add address",
+            "match": {
+              "location": "AddressStepDefinition.user_navigate_to_my_address_page_and_click_on_add_address()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1281875200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": ": User select country and enter \"jaffar A\" and \"8087184935\" and \"411057\" and \"blue ridge society\"and \"wakad palace\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jaffar A",
+                  "offset": 33
+                },
+                {
+                  "val": "8087184935",
+                  "offset": 48
+                },
+                {
+                  "val": "411057",
+                  "offset": 65
+                },
+                {
+                  "val": "blue ridge society",
+                  "offset": 78
+                },
+                {
+                  "val": "wakad palace",
+                  "offset": 102
+                }
+              ],
+              "location": "AddressStepDefinition.user_select_country_and_enter_allvalues(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5442906000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": ": User enter \"near shiv palace\" and \"pune\" and select state",
+            "match": {
+              "arguments": [
+                {
+                  "val": "near shiv palace",
+                  "offset": 14
+                },
+                {
+                  "val": "pune",
+                  "offset": 37
+                }
+              ],
+              "location": "AddressStepDefinition.user_enter_and_and_select_state(String,String)"
+            },
+            "matchedColumns": [
+              7,
+              8
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1082256600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": ": User select Address type and click on add address",
+            "match": {
+              "location": "AddressStepDefinition.user_select_Address_type_and_click_on_add_address()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 133626300,
+              "error_message": "java.lang.AssertionError: Address not save please try again  expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\r\n\tat org.testng.Assert.assertTrue(Assert.java:42)\r\n\tat StepDefinition.AddressStepDefinition.user_validate_the_address_is_saved(AddressStepDefinition.java:216)\r\n\tat ✽.Then : User validate the address is saved(C:/Users/ADMIN/eclipse-workspace1/Demo_Cucumber/src/main/java/Features/Address.feature:15)\r\n",
+              "status": "failed"
+            },
+            "line": 15,
+            "name": ": User validate the address is saved",
+            "match": {
+              "location": "AddressStepDefinition.user_validate_the_address_is_saved()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": ": user close the browser",
+            "match": {
+              "location": "AddressStepDefinition.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To check  add address functionality",
+    "description": "",
+    "id": "to-check--add-address-functionality",
+    "keyword": "Feature",
+    "uri": "C:/Users/ADMIN/eclipse-workspace1/Demo_Cucumber/src/main/java/Features/Address.feature"
+  }
+]
