@@ -30,8 +30,8 @@ Then user close the browser
 Examples:
 
   | username | password |
-  | 8087679770|deepika98|
-  | 8784954995|deepika |
+  | 8087679770|*******|
+  | 8784954995|******* |
 
 
 
