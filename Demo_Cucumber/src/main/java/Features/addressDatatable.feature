@@ -5,7 +5,7 @@ Scenario: User can add mutiple address in amazon site
 Given : users is on Login  page
 When : Titles of Login page is amazon
 Then : Users enter username and password
-|8087679770|anurag@!88|
+|8087679770|****|
 
 Then : users click on login button
 Then : users lands on home page

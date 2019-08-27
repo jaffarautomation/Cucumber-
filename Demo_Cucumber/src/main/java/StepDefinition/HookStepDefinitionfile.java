@@ -9,9 +9,16 @@ public class HookStepDefinitionfile {
 
 	
 	//These are called Hooks
-	//This after annoatation is just like the after class method in testng
-	//This annotaion will work for every scenario, for Ex if 2 scenario is defined then it will run for both scenario.
-	//This is also called global annotation
+	// After annotation is just like the after class method in TestNG.
+	//This annotation will work for every scenario, for Ex if 2 scenario is defined then it will run for both scenario.
+	//This is also called global annotation or global hook
+	
+	//For particular scenario if we want to run some pre-condition, then we need to defined some annoation in scenario and used in 'Before' or 'after'  annotation.
+	//For ex: @Before("@First")
+    // these are called tags hook
+	
+	//We can also used order just like 'Priority' in TestNG, it will executed the method in given ascending order 
+	
 	@After(order=0)
 	public void teardown()
 	{
