@@ -94,7 +94,7 @@ public class AddressStepDefinition {
 		
 		driver.findElement(By.xpath("//input[@name='address-ui-widgets-enterAddressPhoneNumber']")).sendKeys(mobile);
 		
-		driver.findElement(By.xpath("//input[@name='address-ui-widgets-enterAddressPhoneNumber']")).sendKeys(mobile);
+		
 		
 		driver.findElement(By.xpath("//input[@name='address-ui-widgets-enterAddressPostalCode']")).sendKeys(pincode);
 		

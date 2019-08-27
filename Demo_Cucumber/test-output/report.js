@@ -1,549 +1,495 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/ADMIN/eclipse-workspace1/Demo_Cucumber/src/main/java/Features/Address.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("F:/Selenium all/Cucumber/Git repository workspace cucumber/Demo_Cucumber/src/main/java/Features/tag.feature");
 formatter.feature({
   "line": 1,
-  "name": "To check  add address functionality",
+  "name": "To test the tag functionality in cucumber",
   "description": "",
-  "id": "to-check--add-address-functionality",
+  "id": "to-test-the-tag-functionality-in-cucumber",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
-  "line": 3,
-  "name": "User can add mutiple address in amazon site",
+formatter.before({
+  "duration": 566800,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 326000,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 4,
+  "name": "TO check login functionlaity",
   "description": "",
-  "id": "to-check--add-address-functionality;user-can-add-mutiple-address-in-amazon-site",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline"
+  "id": "to-test-the-tag-functionality-in-cucumber;to-check-login-functionlaity",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@SmokeTest"
+    },
+    {
+      "line": 3,
+      "name": "@RegressionTest"
+    }
+  ]
 });
 formatter.step({
   "line": 5,
-  "name": ": user is on Login  page",
+  "name": "user is on login page",
   "keyword": "Given "
 });
-formatter.step({
-  "line": 6,
-  "name": ": Title of Login page is amazon",
-  "keyword": "When "
+formatter.match({
+  "location": "TagStepDefinitionFile.user_is_on_login_page()"
 });
-formatter.step({
-  "line": 7,
-  "name": ": User enter \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
-  "keyword": "Then "
+formatter.result({
+  "duration": 178529700,
+  "status": "passed"
 });
-formatter.step({
+formatter.after({
+  "duration": 102300,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 284800,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 387200,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 294900,
+  "status": "passed"
+});
+formatter.scenario({
   "line": 8,
-  "name": ": user click on login button",
-  "keyword": "Then "
+  "name": "TO check title",
+  "description": "",
+  "id": "to-test-the-tag-functionality-in-cucumber;to-check-title",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 7,
+      "name": "@SmokeTest"
+    },
+    {
+      "line": 7,
+      "name": "@RegressionTest"
+    }
+  ]
 });
 formatter.step({
   "line": 9,
-  "name": ": user lands on home page",
-  "keyword": "Then "
+  "name": "user is check title test case",
+  "keyword": "Given "
 });
-formatter.step({
-  "line": 10,
-  "name": ": user navigate to my account page",
-  "keyword": "Then "
+formatter.match({
+  "location": "TagStepDefinitionFile.user_is_check_title_test_case()"
 });
-formatter.step({
-  "line": 11,
-  "name": ": user navigate to my address page and click on add address",
-  "keyword": "Then "
+formatter.result({
+  "duration": 95200,
+  "status": "passed"
 });
-formatter.step({
+formatter.after({
+  "duration": 77100,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 74200,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 117000,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 968400,
+  "status": "passed"
+});
+formatter.scenario({
   "line": 12,
-  "name": ": User select country and enter \"\u003cfullname\u003e\" and \"\u003cmobileno\u003e\" and \"\u003cpincode\u003e\" and \"\u003cStreetAdd\u003e\"and \"\u003ccolony\u003e\"",
-  "keyword": "Then "
+  "name": "TO check home page title",
+  "description": "",
+  "id": "to-test-the-tag-functionality-in-cucumber;to-check-home-page-title",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 11,
+      "name": "@SmokeTest"
+    }
+  ]
 });
 formatter.step({
   "line": 13,
-  "name": ": User enter \"\u003cLandmark\u003e\" and \"\u003ccity\u003e\" and select state",
-  "keyword": "Then "
+  "name": "this is home page title test case",
+  "keyword": "Given "
 });
-formatter.step({
-  "line": 14,
-  "name": ": User select Address type and click on add address",
-  "keyword": "Then "
+formatter.match({
+  "location": "TagStepDefinitionFile.this_is_home_page_title_test_case()"
 });
-formatter.step({
-  "line": 15,
-  "name": ": User validate the address is saved",
-  "keyword": "Then "
+formatter.result({
+  "duration": 107200,
+  "status": "passed"
 });
-formatter.step({
+formatter.after({
+  "duration": 561100,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 111200,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 473200,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 98600,
+  "status": "passed"
+});
+formatter.scenario({
   "line": 16,
-  "name": ": user close the browser",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 19,
-  "name": "",
+  "name": "TO check address link",
   "description": "",
-  "id": "to-check--add-address-functionality;user-can-add-mutiple-address-in-amazon-site;",
-  "rows": [
+  "id": "to-test-the-tag-functionality-in-cucumber;to-check-address-link",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
     {
-      "cells": [
-        "username",
-        "password",
-        "fullname",
-        "mobileno",
-        "pincode",
-        "StreetAdd",
-        "colony",
-        "Landmark",
-        "city"
-      ],
-      "line": 21,
-      "id": "to-check--add-address-functionality;user-can-add-mutiple-address-in-amazon-site;;1"
-    },
+      "line": 15,
+      "name": "@SmokeTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 17,
+  "name": "this is address link test case",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TagStepDefinitionFile.this_is_address_link_test_case()"
+});
+formatter.result({
+  "duration": 165700,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 318000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 325400,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 156100,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 75200,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 20,
+  "name": "TO check address page",
+  "description": "",
+  "id": "to-test-the-tag-functionality-in-cucumber;to-check-address-page",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
     {
-      "cells": [
-        "8087679770",
-        "deepika98",
-        "anurag N",
-        "8087184935",
-        "411057",
-        "blue ridge",
-        "Hinjawadi",
-        "near marina mart",
-        "pune"
-      ],
-      "line": 22,
-      "id": "to-check--add-address-functionality;user-can-add-mutiple-address-in-amazon-site;;2"
-    },
+      "line": 19,
+      "name": "@SmokeTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 21,
+  "name": "this is address page test case",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TagStepDefinitionFile.this_is_address_page_test_case()"
+});
+formatter.result({
+  "duration": 114300,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 116700,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 66500,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 271300,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 178100,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 24,
+  "name": "TO check address field are displayed",
+  "description": "",
+  "id": "to-test-the-tag-functionality-in-cucumber;to-check-address-field-are-displayed",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
     {
-      "cells": [
-        "8087679770",
-        "deepika98",
-        "jaffar A",
-        "8087184935",
-        "411057",
-        "blue ridge society",
-        "wakad palace",
-        "near shiv palace",
-        "pune"
-      ],
       "line": 23,
-      "id": "to-check--add-address-functionality;user-can-add-mutiple-address-in-amazon-site;;3"
+      "name": "@SmokeTest"
     }
-  ],
-  "keyword": "Examples"
-});
-formatter.scenario({
-  "line": 22,
-  "name": "User can add mutiple address in amazon site",
-  "description": "",
-  "id": "to-check--add-address-functionality;user-can-add-mutiple-address-in-amazon-site;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
+  ]
 });
 formatter.step({
-  "line": 5,
-  "name": ": user is on Login  page",
+  "line": 25,
+  "name": "this is address field are displayed test case",
   "keyword": "Given "
 });
-formatter.step({
-  "line": 6,
-  "name": ": Title of Login page is amazon",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 7,
-  "name": ": User enter \"8087679770\" and \"deepika98\"",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 8,
-  "name": ": user click on login button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 9,
-  "name": ": user lands on home page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 10,
-  "name": ": user navigate to my account page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 11,
-  "name": ": user navigate to my address page and click on add address",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 12,
-  "name": ": User select country and enter \"anurag N\" and \"8087184935\" and \"411057\" and \"blue ridge\"and \"Hinjawadi\"",
-  "matchedColumns": [
-    2,
-    3,
-    4,
-    5,
-    6
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 13,
-  "name": ": User enter \"near marina mart\" and \"pune\" and select state",
-  "matchedColumns": [
-    7,
-    8
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 14,
-  "name": ": User select Address type and click on add address",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 15,
-  "name": ": User validate the address is saved",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 16,
-  "name": ": user close the browser",
-  "keyword": "Then "
-});
 formatter.match({
-  "location": "AddressStepDefinition.user_is_on_Login_page()"
+  "location": "TagStepDefinitionFile.this_is_address_field_are_displayed_test_case()"
 });
 formatter.result({
-  "duration": 9789159000,
+  "duration": 146700,
   "status": "passed"
 });
-formatter.match({
-  "location": "AddressStepDefinition.title_of_Login_page_is_amazon()"
-});
-formatter.result({
-  "duration": 28639400,
+formatter.after({
+  "duration": 81300,
   "status": "passed"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "8087679770",
-      "offset": 14
-    },
-    {
-      "val": "deepika98",
-      "offset": 31
-    }
-  ],
-  "location": "AddressStepDefinition.user_enter_and(String,String)"
-});
-formatter.result({
-  "duration": 3483613500,
+formatter.after({
+  "duration": 401100,
   "status": "passed"
 });
-formatter.match({
-  "location": "AddressStepDefinition.user_click_on_login_button()"
-});
-formatter.result({
-  "duration": 4022345900,
+formatter.before({
+  "duration": 749400,
   "status": "passed"
 });
-formatter.match({
-  "location": "AddressStepDefinition.user_lands_on_home_page()"
-});
-formatter.result({
-  "duration": 55510100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AddressStepDefinition.user_navigate_to_my_account_page()"
-});
-formatter.result({
-  "duration": 2343755900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AddressStepDefinition.user_navigate_to_my_address_page_and_click_on_add_address()"
-});
-formatter.result({
-  "duration": 2159000100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "anurag N",
-      "offset": 33
-    },
-    {
-      "val": "8087184935",
-      "offset": 48
-    },
-    {
-      "val": "411057",
-      "offset": 65
-    },
-    {
-      "val": "blue ridge",
-      "offset": 78
-    },
-    {
-      "val": "Hinjawadi",
-      "offset": 94
-    }
-  ],
-  "location": "AddressStepDefinition.user_select_country_and_enter_allvalues(String,String,String,String,String)"
-});
-formatter.result({
-  "duration": 1201357600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "near marina mart",
-      "offset": 14
-    },
-    {
-      "val": "pune",
-      "offset": 37
-    }
-  ],
-  "location": "AddressStepDefinition.user_enter_and_and_select_state(String,String)"
-});
-formatter.result({
-  "duration": 5450350200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AddressStepDefinition.user_select_Address_type_and_click_on_add_address()"
-});
-formatter.result({
-  "duration": 1763162300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AddressStepDefinition.user_validate_the_address_is_saved()"
-});
-formatter.result({
-  "duration": 40173200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AddressStepDefinition.user_close_the_browser()"
-});
-formatter.result({
-  "duration": 725243700,
+formatter.before({
+  "duration": 324400,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 23,
-  "name": "User can add mutiple address in amazon site",
+  "line": 28,
+  "name": "TO check address button is visible",
   "description": "",
-  "id": "to-check--add-address-functionality;user-can-add-mutiple-address-in-amazon-site;;3",
+  "id": "to-test-the-tag-functionality-in-cucumber;to-check-address-button-is-visible",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 27,
+      "name": "@SmokeTest"
+    }
+  ]
 });
 formatter.step({
-  "line": 5,
-  "name": ": user is on Login  page",
+  "line": 29,
+  "name": "this is address button visible test case",
   "keyword": "Given "
 });
-formatter.step({
-  "line": 6,
-  "name": ": Title of Login page is amazon",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 7,
-  "name": ": User enter \"8087679770\" and \"deepika98\"",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 8,
-  "name": ": user click on login button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 9,
-  "name": ": user lands on home page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 10,
-  "name": ": user navigate to my account page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 11,
-  "name": ": user navigate to my address page and click on add address",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 12,
-  "name": ": User select country and enter \"jaffar A\" and \"8087184935\" and \"411057\" and \"blue ridge society\"and \"wakad palace\"",
-  "matchedColumns": [
-    2,
-    3,
-    4,
-    5,
-    6
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 13,
-  "name": ": User enter \"near shiv palace\" and \"pune\" and select state",
-  "matchedColumns": [
-    7,
-    8
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 14,
-  "name": ": User select Address type and click on add address",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 15,
-  "name": ": User validate the address is saved",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 16,
-  "name": ": user close the browser",
-  "keyword": "Then "
-});
 formatter.match({
-  "location": "AddressStepDefinition.user_is_on_Login_page()"
+  "location": "TagStepDefinitionFile.this_is_address_button_visible_test_case()"
 });
 formatter.result({
-  "duration": 10236824700,
+  "duration": 130900,
   "status": "passed"
 });
-formatter.match({
-  "location": "AddressStepDefinition.title_of_Login_page_is_amazon()"
-});
-formatter.result({
-  "duration": 42583400,
+formatter.after({
+  "duration": 326000,
   "status": "passed"
 });
-formatter.match({
-  "arguments": [
+formatter.after({
+  "duration": 264200,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 390200,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 263000,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 32,
+  "name": "TO check address is added",
+  "description": "",
+  "id": "to-test-the-tag-functionality-in-cucumber;to-check-address-is-added",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
     {
-      "val": "8087679770",
-      "offset": 14
+      "line": 31,
+      "name": "@SmokeTest"
     },
     {
-      "val": "deepika98",
-      "offset": 31
+      "line": 31,
+      "name": "@EndtoendTest"
     }
-  ],
-  "location": "AddressStepDefinition.user_enter_and(String,String)"
+  ]
 });
-formatter.result({
-  "duration": 2628047700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AddressStepDefinition.user_click_on_login_button()"
-});
-formatter.result({
-  "duration": 4391583200,
-  "status": "passed"
+formatter.step({
+  "line": 33,
+  "name": "this is check address is added test case",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "AddressStepDefinition.user_lands_on_home_page()"
+  "location": "TagStepDefinitionFile.this_is_check_address_is_added_test_case()"
 });
 formatter.result({
-  "duration": 99116500,
+  "duration": 135800,
   "status": "passed"
 });
-formatter.match({
-  "location": "AddressStepDefinition.user_navigate_to_my_account_page()"
-});
-formatter.result({
-  "duration": 2225889300,
+formatter.after({
+  "duration": 320400,
   "status": "passed"
 });
-formatter.match({
-  "location": "AddressStepDefinition.user_navigate_to_my_address_page_and_click_on_add_address()"
-});
-formatter.result({
-  "duration": 1782661900,
+formatter.after({
+  "duration": 251500,
   "status": "passed"
 });
-formatter.match({
-  "arguments": [
+formatter.before({
+  "duration": 581500,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 107700,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 36,
+  "name": "TO check delete address button is visible",
+  "description": "",
+  "id": "to-test-the-tag-functionality-in-cucumber;to-check-delete-address-button-is-visible",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
     {
-      "val": "jaffar A",
-      "offset": 33
+      "line": 35,
+      "name": "@SmokeTest"
     },
     {
-      "val": "8087184935",
-      "offset": 48
-    },
-    {
-      "val": "411057",
-      "offset": 65
-    },
-    {
-      "val": "blue ridge society",
-      "offset": 78
-    },
-    {
-      "val": "wakad palace",
-      "offset": 102
+      "line": 35,
+      "name": "@RegressionTest"
     }
-  ],
-  "location": "AddressStepDefinition.user_select_country_and_enter_allvalues(String,String,String,String,String)"
+  ]
 });
-formatter.result({
-  "duration": 1281875200,
-  "status": "passed"
+formatter.step({
+  "line": 37,
+  "name": "this is delete address button visible test case",
+  "keyword": "Given "
 });
 formatter.match({
-  "arguments": [
+  "location": "TagStepDefinitionFile.this_is_delete_address_button_visible_test_case()"
+});
+formatter.result({
+  "duration": 111000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 114900,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 215700,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 347100,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 298200,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 40,
+  "name": "TO check delete page titles",
+  "description": "",
+  "id": "to-test-the-tag-functionality-in-cucumber;to-check-delete-page-titles",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
     {
-      "val": "near shiv palace",
-      "offset": 14
+      "line": 39,
+      "name": "@SmokeTest"
     },
     {
-      "val": "pune",
-      "offset": 37
+      "line": 39,
+      "name": "@RegressionTest"
     }
-  ],
-  "location": "AddressStepDefinition.user_enter_and_and_select_state(String,String)"
+  ]
+});
+formatter.step({
+  "line": 42,
+  "name": "this is delete page title test case",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TagStepDefinitionFile.this_is_delete_page_title_test_case()"
 });
 formatter.result({
-  "duration": 5442906000,
+  "duration": 142900,
   "status": "passed"
 });
-formatter.match({
-  "location": "AddressStepDefinition.user_select_Address_type_and_click_on_add_address()"
-});
-formatter.result({
-  "duration": 1082256600,
+formatter.after({
+  "duration": 74400,
   "status": "passed"
 });
+formatter.after({
+  "duration": 70800,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 162600,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 299300,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 45,
+  "name": "TO check login functionlaitys",
+  "description": "",
+  "id": "to-test-the-tag-functionality-in-cucumber;to-check-login-functionlaitys",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 44,
+      "name": "@SmokeTest"
+    },
+    {
+      "line": 44,
+      "name": "@RegressionTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 46,
+  "name": "user is on login pagess",
+  "keyword": "Given "
+});
 formatter.match({
-  "location": "AddressStepDefinition.user_validate_the_address_is_saved()"
+  "location": "TagStepDefinitionFile.user_is_on_login_pagess()"
 });
 formatter.result({
-  "duration": 133626300,
-  "error_message": "java.lang.AssertionError: Address not save please try again  expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\r\n\tat org.testng.Assert.assertTrue(Assert.java:42)\r\n\tat StepDefinition.AddressStepDefinition.user_validate_the_address_is_saved(AddressStepDefinition.java:216)\r\n\tat ✽.Then : User validate the address is saved(C:/Users/ADMIN/eclipse-workspace1/Demo_Cucumber/src/main/java/Features/Address.feature:15)\r\n",
-  "status": "failed"
+  "duration": 165300,
+  "status": "passed"
 });
-formatter.match({
-  "location": "AddressStepDefinition.user_close_the_browser()"
+formatter.after({
+  "duration": 84300,
+  "status": "passed"
 });
-formatter.result({
-  "status": "skipped"
+formatter.after({
+  "duration": 108500,
+  "status": "passed"
 });
 });

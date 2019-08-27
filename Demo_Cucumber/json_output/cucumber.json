@@ -3,432 +3,782 @@
     "line": 1,
     "elements": [
       {
-        "line": 22,
-        "name": "User can add mutiple address in amazon site",
+        "before": [
+          {
+            "result": {
+              "duration": 566800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 326000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.setup1()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "TO check login functionlaity",
         "description": "",
-        "id": "to-check--add-address-functionality;user-can-add-mutiple-address-in-amazon-site;;2",
+        "id": "to-test-the-tag-functionality-in-cucumber;to-check-login-functionlaity",
+        "after": [
+          {
+            "result": {
+              "duration": 102300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.teardown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 284800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 9789159000,
+              "duration": 178529700,
               "status": "passed"
             },
             "line": 5,
-            "name": ": user is on Login  page",
+            "name": "user is on login page",
             "match": {
-              "location": "AddressStepDefinition.user_is_on_Login_page()"
+              "location": "TagStepDefinitionFile.user_is_on_login_page()"
             },
             "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SmokeTest"
           },
           {
-            "result": {
-              "duration": 28639400,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": ": Title of Login page is amazon",
-            "match": {
-              "location": "AddressStepDefinition.title_of_Login_page_is_amazon()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3483613500,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": ": User enter \"8087679770\" and \"deepika98\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "8087679770",
-                  "offset": 14
-                },
-                {
-                  "val": "deepika98",
-                  "offset": 31
-                }
-              ],
-              "location": "AddressStepDefinition.user_enter_and(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4022345900,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": ": user click on login button",
-            "match": {
-              "location": "AddressStepDefinition.user_click_on_login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 55510100,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": ": user lands on home page",
-            "match": {
-              "location": "AddressStepDefinition.user_lands_on_home_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2343755900,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": ": user navigate to my account page",
-            "match": {
-              "location": "AddressStepDefinition.user_navigate_to_my_account_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2159000100,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": ": user navigate to my address page and click on add address",
-            "match": {
-              "location": "AddressStepDefinition.user_navigate_to_my_address_page_and_click_on_add_address()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1201357600,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": ": User select country and enter \"anurag N\" and \"8087184935\" and \"411057\" and \"blue ridge\"and \"Hinjawadi\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "anurag N",
-                  "offset": 33
-                },
-                {
-                  "val": "8087184935",
-                  "offset": 48
-                },
-                {
-                  "val": "411057",
-                  "offset": 65
-                },
-                {
-                  "val": "blue ridge",
-                  "offset": 78
-                },
-                {
-                  "val": "Hinjawadi",
-                  "offset": 94
-                }
-              ],
-              "location": "AddressStepDefinition.user_select_country_and_enter_allvalues(String,String,String,String,String)"
-            },
-            "matchedColumns": [
-              2,
-              3,
-              4,
-              5,
-              6
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5450350200,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": ": User enter \"near marina mart\" and \"pune\" and select state",
-            "match": {
-              "arguments": [
-                {
-                  "val": "near marina mart",
-                  "offset": 14
-                },
-                {
-                  "val": "pune",
-                  "offset": 37
-                }
-              ],
-              "location": "AddressStepDefinition.user_enter_and_and_select_state(String,String)"
-            },
-            "matchedColumns": [
-              7,
-              8
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1763162300,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": ": User select Address type and click on add address",
-            "match": {
-              "location": "AddressStepDefinition.user_select_Address_type_and_click_on_add_address()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 40173200,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": ": User validate the address is saved",
-            "match": {
-              "location": "AddressStepDefinition.user_validate_the_address_is_saved()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 725243700,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": ": user close the browser",
-            "match": {
-              "location": "AddressStepDefinition.user_close_the_browser()"
-            },
-            "keyword": "Then "
+            "line": 3,
+            "name": "@RegressionTest"
           }
         ]
       },
       {
-        "line": 23,
-        "name": "User can add mutiple address in amazon site",
+        "before": [
+          {
+            "result": {
+              "duration": 387200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 294900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.setup1()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "TO check title",
         "description": "",
-        "id": "to-check--add-address-functionality;user-can-add-mutiple-address-in-amazon-site;;3",
+        "id": "to-test-the-tag-functionality-in-cucumber;to-check-title",
+        "after": [
+          {
+            "result": {
+              "duration": 77100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.teardown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 74200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 10236824700,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": ": user is on Login  page",
-            "match": {
-              "location": "AddressStepDefinition.user_is_on_Login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 42583400,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": ": Title of Login page is amazon",
-            "match": {
-              "location": "AddressStepDefinition.title_of_Login_page_is_amazon()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2628047700,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": ": User enter \"8087679770\" and \"deepika98\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "8087679770",
-                  "offset": 14
-                },
-                {
-                  "val": "deepika98",
-                  "offset": 31
-                }
-              ],
-              "location": "AddressStepDefinition.user_enter_and(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4391583200,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": ": user click on login button",
-            "match": {
-              "location": "AddressStepDefinition.user_click_on_login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 99116500,
+              "duration": 95200,
               "status": "passed"
             },
             "line": 9,
-            "name": ": user lands on home page",
+            "name": "user is check title test case",
             "match": {
-              "location": "AddressStepDefinition.user_lands_on_home_page()"
+              "location": "TagStepDefinitionFile.user_is_check_title_test_case()"
             },
-            "keyword": "Then "
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@SmokeTest"
           },
           {
+            "line": 7,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
             "result": {
-              "duration": 2225889300,
+              "duration": 117000,
               "status": "passed"
             },
-            "line": 10,
-            "name": ": user navigate to my account page",
             "match": {
-              "location": "AddressStepDefinition.user_navigate_to_my_account_page()"
-            },
-            "keyword": "Then "
+              "location": "HookStepDefinitionfile.setup()"
+            }
           },
           {
             "result": {
-              "duration": 1782661900,
+              "duration": 968400,
               "status": "passed"
             },
-            "line": 11,
-            "name": ": user navigate to my address page and click on add address",
             "match": {
-              "location": "AddressStepDefinition.user_navigate_to_my_address_page_and_click_on_add_address()"
-            },
-            "keyword": "Then "
-          },
+              "location": "HookStepDefinitionfile.setup1()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "TO check home page title",
+        "description": "",
+        "id": "to-test-the-tag-functionality-in-cucumber;to-check-home-page-title",
+        "after": [
           {
             "result": {
-              "duration": 1281875200,
+              "duration": 561100,
               "status": "passed"
             },
-            "line": 12,
-            "name": ": User select country and enter \"jaffar A\" and \"8087184935\" and \"411057\" and \"blue ridge society\"and \"wakad palace\"",
             "match": {
-              "arguments": [
-                {
-                  "val": "jaffar A",
-                  "offset": 33
-                },
-                {
-                  "val": "8087184935",
-                  "offset": 48
-                },
-                {
-                  "val": "411057",
-                  "offset": 65
-                },
-                {
-                  "val": "blue ridge society",
-                  "offset": 78
-                },
-                {
-                  "val": "wakad palace",
-                  "offset": 102
-                }
-              ],
-              "location": "AddressStepDefinition.user_select_country_and_enter_allvalues(String,String,String,String,String)"
-            },
-            "matchedColumns": [
-              2,
-              3,
-              4,
-              5,
-              6
-            ],
-            "keyword": "Then "
+              "location": "HookStepDefinitionfile.teardown1()"
+            }
           },
           {
             "result": {
-              "duration": 5442906000,
+              "duration": 111200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 107200,
               "status": "passed"
             },
             "line": 13,
-            "name": ": User enter \"near shiv palace\" and \"pune\" and select state",
+            "name": "this is home page title test case",
             "match": {
-              "arguments": [
-                {
-                  "val": "near shiv palace",
-                  "offset": 14
-                },
-                {
-                  "val": "pune",
-                  "offset": 37
-                }
-              ],
-              "location": "AddressStepDefinition.user_enter_and_and_select_state(String,String)"
+              "location": "TagStepDefinitionFile.this_is_home_page_title_test_case()"
             },
-            "matchedColumns": [
-              7,
-              8
-            ],
-            "keyword": "Then "
-          },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
           {
             "result": {
-              "duration": 1082256600,
+              "duration": 473200,
               "status": "passed"
             },
-            "line": 14,
-            "name": ": User select Address type and click on add address",
             "match": {
-              "location": "AddressStepDefinition.user_select_Address_type_and_click_on_add_address()"
-            },
-            "keyword": "Then "
+              "location": "HookStepDefinitionfile.setup()"
+            }
           },
           {
             "result": {
-              "duration": 133626300,
-              "error_message": "java.lang.AssertionError: Address not save please try again  expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\r\n\tat org.testng.Assert.assertTrue(Assert.java:42)\r\n\tat StepDefinition.AddressStepDefinition.user_validate_the_address_is_saved(AddressStepDefinition.java:216)\r\n\tat ✽.Then : User validate the address is saved(C:/Users/ADMIN/eclipse-workspace1/Demo_Cucumber/src/main/java/Features/Address.feature:15)\r\n",
-              "status": "failed"
+              "duration": 98600,
+              "status": "passed"
             },
+            "match": {
+              "location": "HookStepDefinitionfile.setup1()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "TO check address link",
+        "description": "",
+        "id": "to-test-the-tag-functionality-in-cucumber;to-check-address-link",
+        "after": [
+          {
+            "result": {
+              "duration": 318000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.teardown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 325400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 165700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "this is address link test case",
+            "match": {
+              "location": "TagStepDefinitionFile.this_is_address_link_test_case()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
             "line": 15,
-            "name": ": User validate the address is saved",
-            "match": {
-              "location": "AddressStepDefinition.user_validate_the_address_is_saved()"
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 156100,
+              "status": "passed"
             },
-            "keyword": "Then "
+            "match": {
+              "location": "HookStepDefinitionfile.setup()"
+            }
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 75200,
+              "status": "passed"
             },
-            "line": 16,
-            "name": ": user close the browser",
             "match": {
-              "location": "AddressStepDefinition.user_close_the_browser()"
+              "location": "HookStepDefinitionfile.setup1()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "TO check address page",
+        "description": "",
+        "id": "to-test-the-tag-functionality-in-cucumber;to-check-address-page",
+        "after": [
+          {
+            "result": {
+              "duration": 116700,
+              "status": "passed"
             },
-            "keyword": "Then "
+            "match": {
+              "location": "HookStepDefinitionfile.teardown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 66500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 114300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "this is address page test case",
+            "match": {
+              "location": "TagStepDefinitionFile.this_is_address_page_test_case()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 271300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 178100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.setup1()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "TO check address field are displayed",
+        "description": "",
+        "id": "to-test-the-tag-functionality-in-cucumber;to-check-address-field-are-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 81300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.teardown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 401100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 146700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "this is address field are displayed test case",
+            "match": {
+              "location": "TagStepDefinitionFile.this_is_address_field_are_displayed_test_case()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 749400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 324400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.setup1()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "TO check address button is visible",
+        "description": "",
+        "id": "to-test-the-tag-functionality-in-cucumber;to-check-address-button-is-visible",
+        "after": [
+          {
+            "result": {
+              "duration": 326000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.teardown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 264200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 130900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "this is address button visible test case",
+            "match": {
+              "location": "TagStepDefinitionFile.this_is_address_button_visible_test_case()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 390200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 263000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.setup1()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "TO check address is added",
+        "description": "",
+        "id": "to-test-the-tag-functionality-in-cucumber;to-check-address-is-added",
+        "after": [
+          {
+            "result": {
+              "duration": 320400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.teardown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 251500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 135800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "this is check address is added test case",
+            "match": {
+              "location": "TagStepDefinitionFile.this_is_check_address_is_added_test_case()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 31,
+            "name": "@EndtoendTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 581500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 107700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.setup1()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "TO check delete address button is visible",
+        "description": "",
+        "id": "to-test-the-tag-functionality-in-cucumber;to-check-delete-address-button-is-visible",
+        "after": [
+          {
+            "result": {
+              "duration": 114900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.teardown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 215700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 111000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "this is delete address button visible test case",
+            "match": {
+              "location": "TagStepDefinitionFile.this_is_delete_address_button_visible_test_case()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 35,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 35,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 347100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 298200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.setup1()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "TO check delete page titles",
+        "description": "",
+        "id": "to-test-the-tag-functionality-in-cucumber;to-check-delete-page-titles",
+        "after": [
+          {
+            "result": {
+              "duration": 74400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.teardown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 70800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 142900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "this is delete page title test case",
+            "match": {
+              "location": "TagStepDefinitionFile.this_is_delete_page_title_test_case()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 39,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 39,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 162600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 299300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.setup1()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "TO check login functionlaitys",
+        "description": "",
+        "id": "to-test-the-tag-functionality-in-cucumber;to-check-login-functionlaitys",
+        "after": [
+          {
+            "result": {
+              "duration": 84300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.teardown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 108500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinitionfile.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 165300,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user is on login pagess",
+            "match": {
+              "location": "TagStepDefinitionFile.user_is_on_login_pagess()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 44,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 44,
+            "name": "@RegressionTest"
           }
         ]
       }
     ],
-    "name": "To check  add address functionality",
+    "name": "To test the tag functionality in cucumber",
     "description": "",
-    "id": "to-check--add-address-functionality",
+    "id": "to-test-the-tag-functionality-in-cucumber",
     "keyword": "Feature",
-    "uri": "C:/Users/ADMIN/eclipse-workspace1/Demo_Cucumber/src/main/java/Features/Address.feature"
+    "uri": "F:/Selenium all/Cucumber/Git repository workspace cucumber/Demo_Cucumber/src/main/java/Features/tag.feature"
   }
 ]

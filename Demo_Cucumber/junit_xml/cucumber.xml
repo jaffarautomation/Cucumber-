@@ -1,41 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="60.409682">
-<testcase classname="To check  add address functionality" name="User can add mutiple address in amazon site" time="31.062311">
-<system-out><![CDATA[Given : user is on Login  page..............................................passed
-When : Title of Login page is amazon........................................passed
-Then : User enter "8087679770" and "deepika98"..............................passed
-Then : user click on login button...........................................passed
-Then : user lands on home page..............................................passed
-Then : user navigate to my account page.....................................passed
-Then : user navigate to my address page and click on add address............passed
-Then : User select country and enter "anurag N" and "8087184935" and "411057" and "blue ridge"and "Hinjawadi".passed
-Then : User enter "near marina mart" and "pune" and select state............passed
-Then : User select Address type and click on add address....................passed
-Then : User validate the address is saved...................................passed
-Then : user close the browser...............................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="11" time="0.191633">
+<testcase classname="To test the tag functionality in cucumber" name="TO check login functionlaity" time="0.17981">
+<system-out><![CDATA[Given user is on login page.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="To check  add address functionality" name="User can add mutiple address in amazon site 2" time="29.347371">
-<failure message="java.lang.AssertionError: Address not save please try again  expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:94)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:513)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:42)&#13;&#10;&#9;at StepDefinition.AddressStepDefinition.user_validate_the_address_is_saved(AddressStepDefinition.java:216)&#13;&#10;&#9;at ✽.Then : User validate the address is saved(C:/Users/ADMIN/eclipse-workspace1/Demo_Cucumber/src/main/java/Features/Address.feature:15)&#13;&#10;"><![CDATA[Given : user is on Login  page..............................................passed
-When : Title of Login page is amazon........................................passed
-Then : User enter "8087679770" and "deepika98"..............................passed
-Then : user click on login button...........................................passed
-Then : user lands on home page..............................................passed
-Then : user navigate to my account page.....................................passed
-Then : user navigate to my address page and click on add address............passed
-Then : User select country and enter "jaffar A" and "8087184935" and "411057" and "blue ridge society"and "wakad palace".passed
-Then : User enter "near shiv palace" and "pune" and select state............passed
-Then : User select Address type and click on add address....................passed
-Then : User validate the address is saved...................................failed
-Then : user close the browser...............................................skipped
-
-StackTrace:
-java.lang.AssertionError: Address not save please try again  expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at StepDefinition.AddressStepDefinition.user_validate_the_address_is_saved(AddressStepDefinition.java:216)
-	at ✽.Then : User validate the address is saved(C:/Users/ADMIN/eclipse-workspace1/Demo_Cucumber/src/main/java/Features/Address.feature:15)
-]]></failure>
+<testcase classname="To test the tag functionality in cucumber" name="TO check title" time="0.000929">
+<system-out><![CDATA[Given user is check title test case.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the tag functionality in cucumber" name="TO check home page title" time="0.001865">
+<system-out><![CDATA[Given this is home page title test case.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the tag functionality in cucumber" name="TO check address link" time="0.001381">
+<system-out><![CDATA[Given this is address link test case........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the tag functionality in cucumber" name="TO check address page" time="0.000529">
+<system-out><![CDATA[Given this is address page test case........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the tag functionality in cucumber" name="TO check address field are displayed" time="0.001079">
+<system-out><![CDATA[Given this is address field are displayed test case.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the tag functionality in cucumber" name="TO check address button is visible" time="0.001795">
+<system-out><![CDATA[Given this is address button visible test case..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the tag functionality in cucumber" name="TO check address is added" time="0.001361">
+<system-out><![CDATA[Given this is check address is added test case..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the tag functionality in cucumber" name="TO check delete address button is visible" time="0.001131">
+<system-out><![CDATA[Given this is delete address button visible test case.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the tag functionality in cucumber" name="TO check delete page titles" time="0.000933">
+<system-out><![CDATA[Given this is delete page title test case...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the tag functionality in cucumber" name="TO check login functionlaitys" time="0.00082">
+<system-out><![CDATA[Given user is on login pagess...............................................passed
+]]></system-out>
 </testcase>
 </testsuite>

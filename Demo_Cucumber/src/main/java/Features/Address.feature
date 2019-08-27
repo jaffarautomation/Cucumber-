@@ -19,5 +19,5 @@ Then : user close the browser
 Examples: 
 
 | username | password | fullname | mobileno | pincode | StreetAdd | colony  | Landmark | city | 
-| 8087679770|*********| anurag N | 8087184935 | 411057 | blue ridge | Hinjawadi| near marina mart | pune |
-| 8087679770|*********| jaffar A | 8087184935 | 411057| blue ridge society | wakad palace  | near shiv palace | pune |
+| 8087679770|**********| anurag N | 8087184935 | 411057 | blue ridge | Hinjawadi| near marina mart | pune |
+| 8087679770|**********| jaffar A | 8087184935 | 411057| blue ridge society | wakad palace  | near shiv palace | pune |
