@@ -1,5 +1,11 @@
 Feature: To check  add address functionality
 
+
+#This is Data Driven Approach using DataTable concept
+#In this concept data is written below the gherkins keyword, as below and that data can only be used by the given gherkins keyword
+
+
+
 Scenario: User can add mutiple address in amazon site
 
 Given : users is on Login  page

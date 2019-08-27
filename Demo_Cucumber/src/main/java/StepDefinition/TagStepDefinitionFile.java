@@ -2,6 +2,14 @@ package StepDefinition;
 
 import cucumber.api.java.en.Given;
 
+
+//In real life scenario, we dont need to run every method in step definition file, some method are for sanity and some are for regression test
+//With  help of tags we run run method according to tags which we defined in the feature file above the scenario.
+//We need to pass the tags in runner file.
+//If we pass only @smokeTest in runner file, only @somketest scenario will and  other scenario will not run.
+
+
+
 public class TagStepDefinitionFile {
 
 	

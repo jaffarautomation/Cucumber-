@@ -1,5 +1,11 @@
 Feature: To check  add address functionality
 
+
+#This is Data Driven Testing with Examples Keyword.
+#With Examples keyword we need to use the Scenario Outline keyword.
+#Advantage to this Data driven approach  is , it will executed the every scenario according to given number of data.
+
+
 Scenario Outline: User can add mutiple address in amazon site
 
 Given : user is on Login  page

@@ -1,5 +1,7 @@
 Feature: To test the tag functionality in cucumber
 
+
+
 @SmokeTest  @RegressionTest
 Scenario: TO check login functionlaity
 Given user is on login page
