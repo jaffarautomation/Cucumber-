@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="11" time="0.191633">
-<testcase classname="To test the tag functionality in cucumber" name="TO check login functionlaity" time="0.17981">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="11" time="0.198524">
+<testcase classname="To test the tag functionality in cucumber" name="TO check login functionlaity" time="0.186463">
 <system-out><![CDATA[Given user is on login page.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="To test the tag functionality in cucumber" name="TO check title" time="0.000929">
+<testcase classname="To test the tag functionality in cucumber" name="TO check title" time="0.001041">
 <system-out><![CDATA[Given user is check title test case.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="To test the tag functionality in cucumber" name="TO check home page title" time="0.001865">
+<testcase classname="To test the tag functionality in cucumber" name="TO check home page title" time="0.0012">
 <system-out><![CDATA[Given this is home page title test case.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="To test the tag functionality in cucumber" name="TO check address link" time="0.001381">
+<testcase classname="To test the tag functionality in cucumber" name="TO check address link" time="0.000855">
 <system-out><![CDATA[Given this is address link test case........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="To test the tag functionality in cucumber" name="TO check address page" time="0.000529">
+<testcase classname="To test the tag functionality in cucumber" name="TO check address page" time="0.001011">
 <system-out><![CDATA[Given this is address page test case........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="To test the tag functionality in cucumber" name="TO check address field are displayed" time="0.001079">
+<testcase classname="To test the tag functionality in cucumber" name="TO check address field are displayed" time="0.001202">
 <system-out><![CDATA[Given this is address field are displayed test case.........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="To test the tag functionality in cucumber" name="TO check address button is visible" time="0.001795">
+<testcase classname="To test the tag functionality in cucumber" name="TO check address button is visible" time="0.00148">
 <system-out><![CDATA[Given this is address button visible test case..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="To test the tag functionality in cucumber" name="TO check address is added" time="0.001361">
+<testcase classname="To test the tag functionality in cucumber" name="TO check address is added" time="0.001404">
 <system-out><![CDATA[Given this is check address is added test case..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="To test the tag functionality in cucumber" name="TO check delete address button is visible" time="0.001131">
+<testcase classname="To test the tag functionality in cucumber" name="TO check delete address button is visible" time="0.00127">
 <system-out><![CDATA[Given this is delete address button visible test case.......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="To test the tag functionality in cucumber" name="TO check delete page titles" time="0.000933">
+<testcase classname="To test the tag functionality in cucumber" name="TO check delete page titles" time="0.001389">
 <system-out><![CDATA[Given this is delete page title test case...................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="To test the tag functionality in cucumber" name="TO check login functionlaitys" time="0.00082">
+<testcase classname="To test the tag functionality in cucumber" name="TO check login functionlaitys" time="0.001209">
 <system-out><![CDATA[Given user is on login pagess...............................................passed
 ]]></system-out>
 </testcase>

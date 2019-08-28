@@ -7,15 +7,15 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 566800,
+  "duration": 535800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 326000,
+  "duration": 299600,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 4,
+  "line": 6,
   "name": "TO check login functionlaity",
   "description": "",
   "id": "to-test-the-tag-functionality-in-cucumber;to-check-login-functionlaity",
@@ -23,17 +23,17 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 3,
+      "line": 5,
       "name": "@SmokeTest"
     },
     {
-      "line": 3,
+      "line": 5,
       "name": "@RegressionTest"
     }
   ]
 });
 formatter.step({
-  "line": 5,
+  "line": 7,
   "name": "user is on login page",
   "keyword": "Given "
 });
@@ -41,27 +41,27 @@ formatter.match({
   "location": "TagStepDefinitionFile.user_is_on_login_page()"
 });
 formatter.result({
-  "duration": 178529700,
+  "duration": 185454000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 102300,
+  "duration": 99700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 284800,
+  "duration": 73400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 387200,
+  "duration": 321200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 294900,
+  "duration": 103400,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 8,
+  "line": 10,
   "name": "TO check title",
   "description": "",
   "id": "to-test-the-tag-functionality-in-cucumber;to-check-title",
@@ -69,17 +69,17 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 7,
+      "line": 9,
       "name": "@SmokeTest"
     },
     {
-      "line": 7,
+      "line": 9,
       "name": "@RegressionTest"
     }
   ]
 });
 formatter.step({
-  "line": 9,
+  "line": 11,
   "name": "user is check title test case",
   "keyword": "Given "
 });
@@ -87,27 +87,27 @@ formatter.match({
   "location": "TagStepDefinitionFile.user_is_check_title_test_case()"
 });
 formatter.result({
-  "duration": 95200,
+  "duration": 118700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 77100,
+  "duration": 109800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 74200,
+  "duration": 388200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 117000,
+  "duration": 368800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 968400,
+  "duration": 532700,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 12,
+  "line": 14,
   "name": "TO check home page title",
   "description": "",
   "id": "to-test-the-tag-functionality-in-cucumber;to-check-home-page-title",
@@ -115,13 +115,13 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 11,
+      "line": 13,
       "name": "@SmokeTest"
     }
   ]
 });
 formatter.step({
-  "line": 13,
+  "line": 15,
   "name": "this is home page title test case",
   "keyword": "Given "
 });
@@ -129,27 +129,27 @@ formatter.match({
   "location": "TagStepDefinitionFile.this_is_home_page_title_test_case()"
 });
 formatter.result({
-  "duration": 107200,
+  "duration": 117100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 561100,
+  "duration": 93000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 111200,
+  "duration": 88100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 473200,
+  "duration": 423600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 98600,
+  "duration": 76300,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 16,
+  "line": 18,
   "name": "TO check address link",
   "description": "",
   "id": "to-test-the-tag-functionality-in-cucumber;to-check-address-link",
@@ -157,13 +157,13 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 15,
+      "line": 17,
       "name": "@SmokeTest"
     }
   ]
 });
 formatter.step({
-  "line": 17,
+  "line": 19,
   "name": "this is address link test case",
   "keyword": "Given "
 });
@@ -171,27 +171,27 @@ formatter.match({
   "location": "TagStepDefinitionFile.this_is_address_link_test_case()"
 });
 formatter.result({
-  "duration": 165700,
+  "duration": 141900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 318000,
+  "duration": 102600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 325400,
+  "duration": 110700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 156100,
+  "duration": 210800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 75200,
+  "duration": 79100,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 20,
+  "line": 22,
   "name": "TO check address page",
   "description": "",
   "id": "to-test-the-tag-functionality-in-cucumber;to-check-address-page",
@@ -199,13 +199,13 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 19,
+      "line": 21,
       "name": "@SmokeTest"
     }
   ]
 });
 formatter.step({
-  "line": 21,
+  "line": 23,
   "name": "this is address page test case",
   "keyword": "Given "
 });
@@ -213,27 +213,27 @@ formatter.match({
   "location": "TagStepDefinitionFile.this_is_address_page_test_case()"
 });
 formatter.result({
-  "duration": 114300,
+  "duration": 95700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 116700,
+  "duration": 292900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 66500,
+  "duration": 332800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 271300,
+  "duration": 366600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 178100,
+  "duration": 131300,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 24,
+  "line": 26,
   "name": "TO check address field are displayed",
   "description": "",
   "id": "to-test-the-tag-functionality-in-cucumber;to-check-address-field-are-displayed",
@@ -241,13 +241,13 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 23,
+      "line": 25,
       "name": "@SmokeTest"
     }
   ]
 });
 formatter.step({
-  "line": 25,
+  "line": 27,
   "name": "this is address field are displayed test case",
   "keyword": "Given "
 });
@@ -255,27 +255,27 @@ formatter.match({
   "location": "TagStepDefinitionFile.this_is_address_field_are_displayed_test_case()"
 });
 formatter.result({
-  "duration": 146700,
+  "duration": 147200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 81300,
+  "duration": 262400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 401100,
+  "duration": 294600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 749400,
+  "duration": 412200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 324400,
+  "duration": 329000,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 28,
+  "line": 30,
   "name": "TO check address button is visible",
   "description": "",
   "id": "to-test-the-tag-functionality-in-cucumber;to-check-address-button-is-visible",
@@ -283,13 +283,13 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 27,
+      "line": 29,
       "name": "@SmokeTest"
     }
   ]
 });
 formatter.step({
-  "line": 29,
+  "line": 31,
   "name": "this is address button visible test case",
   "keyword": "Given "
 });
@@ -297,27 +297,27 @@ formatter.match({
   "location": "TagStepDefinitionFile.this_is_address_button_visible_test_case()"
 });
 formatter.result({
-  "duration": 130900,
+  "duration": 161700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 326000,
+  "duration": 300300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 264200,
+  "duration": 277100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 390200,
+  "duration": 355000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 263000,
+  "duration": 95800,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 32,
+  "line": 34,
   "name": "TO check address is added",
   "description": "",
   "id": "to-test-the-tag-functionality-in-cucumber;to-check-address-is-added",
@@ -325,17 +325,17 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 31,
+      "line": 33,
       "name": "@SmokeTest"
     },
     {
-      "line": 31,
+      "line": 33,
       "name": "@EndtoendTest"
     }
   ]
 });
 formatter.step({
-  "line": 33,
+  "line": 35,
   "name": "this is check address is added test case",
   "keyword": "Given "
 });
@@ -343,27 +343,27 @@ formatter.match({
   "location": "TagStepDefinitionFile.this_is_check_address_is_added_test_case()"
 });
 formatter.result({
-  "duration": 135800,
+  "duration": 158000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 320400,
+  "duration": 457100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 251500,
+  "duration": 338000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 581500,
+  "duration": 558400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 107700,
+  "duration": 106800,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 36,
+  "line": 38,
   "name": "TO check delete address button is visible",
   "description": "",
   "id": "to-test-the-tag-functionality-in-cucumber;to-check-delete-address-button-is-visible",
@@ -371,17 +371,17 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 35,
+      "line": 37,
       "name": "@SmokeTest"
     },
     {
-      "line": 35,
+      "line": 37,
       "name": "@RegressionTest"
     }
   ]
 });
 formatter.step({
-  "line": 37,
+  "line": 39,
   "name": "this is delete address button visible test case",
   "keyword": "Given "
 });
@@ -389,27 +389,27 @@ formatter.match({
   "location": "TagStepDefinitionFile.this_is_delete_address_button_visible_test_case()"
 });
 formatter.result({
-  "duration": 111000,
+  "duration": 157600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 114900,
+  "duration": 236200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 215700,
+  "duration": 210700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 347100,
+  "duration": 322100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 298200,
+  "duration": 250200,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 40,
+  "line": 42,
   "name": "TO check delete page titles",
   "description": "",
   "id": "to-test-the-tag-functionality-in-cucumber;to-check-delete-page-titles",
@@ -417,17 +417,17 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 39,
+      "line": 41,
       "name": "@SmokeTest"
     },
     {
-      "line": 39,
+      "line": 41,
       "name": "@RegressionTest"
     }
   ]
 });
 formatter.step({
-  "line": 42,
+  "line": 44,
   "name": "this is delete page title test case",
   "keyword": "Given "
 });
@@ -435,27 +435,27 @@ formatter.match({
   "location": "TagStepDefinitionFile.this_is_delete_page_title_test_case()"
 });
 formatter.result({
-  "duration": 142900,
+  "duration": 281800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 74400,
+  "duration": 283900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 70800,
+  "duration": 251000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 162600,
+  "duration": 368800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 299300,
+  "duration": 319900,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 45,
+  "line": 47,
   "name": "TO check login functionlaitys",
   "description": "",
   "id": "to-test-the-tag-functionality-in-cucumber;to-check-login-functionlaitys",
@@ -463,17 +463,17 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 44,
+      "line": 46,
       "name": "@SmokeTest"
     },
     {
-      "line": 44,
+      "line": 46,
       "name": "@RegressionTest"
     }
   ]
 });
 formatter.step({
-  "line": 46,
+  "line": 48,
   "name": "user is on login pagess",
   "keyword": "Given "
 });
@@ -481,15 +481,15 @@ formatter.match({
   "location": "TagStepDefinitionFile.user_is_on_login_pagess()"
 });
 formatter.result({
-  "duration": 165300,
+  "duration": 132700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 84300,
+  "duration": 71900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 108500,
+  "duration": 315900,
   "status": "passed"
 });
 });
